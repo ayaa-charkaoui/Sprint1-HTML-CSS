@@ -1,0 +1,99 @@
+*{
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.container0{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+	.container1{
+		background: black;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		.container11 {
+			background: #2d4059;	
+		    display: flex;
+			flex-flow: row nowrap;
+		}
+		
+			.redbox1 {
+				background: #ea5455;
+				flex: 1 1 auto;
+			}
+			.redbox2 {
+				background: #ea5455;
+				flex: 5 1 auto;
+			}
+			.redbox3 {
+				background: #ea5455; 
+				flex: 1 1 auto;
+			}
+		.orangebox {
+			background: #fed460;
+  			border: 20px solid #f07b3f;
+		}
+	.container2 { 
+		background: black;
+		display: flex;
+	}
+		.container21 {
+			background: #4e4e6a;
+			flex: 2 1 auto;
+  			display: flex;
+			flex-flow: row wrap;
+		}
+			.bluebox1 {
+				background: #1f6cb0;
+				flex: 1 1 40%;
+			}
+			.bluebox2 {
+				background: #70a3c4;
+  				flex: 1 1 100%;
+			}
+		.container22 {
+			background: #f73f52;
+			flex: 1 1 auto;
+			
+		}
+			.yellowbox1 {
+				background: #ffea85;
+			}
+	.container3 {
+		background: #000;
+	}
+
+	.yellowbox2 {
+		background: #e6af2e
+	}
+
+@media all and (max-width:800px) {
+	.container2 {
+		background: yellow;
+		flex-direction: column;
+		
+	}
+}
+
+@media all and (max-width:600px) {
+	.container1 {
+		flex-direction: column;
+	}
+	.container11 {
+		flex-direction: column;
+	}
+	.container2 {
+		background: #ffd939;
+	}
+	.container22 {
+		background: #ff784c;
+	}
+	.yellowbox1 {
+		background: #ffab64;
+	}
+	.bluebox1 {
+		background: #558991;
+	}
+}
